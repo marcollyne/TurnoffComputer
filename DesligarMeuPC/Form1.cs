@@ -83,6 +83,12 @@ namespace DesligarMeuPC
             processo.CreateNoWindow = true;
             processo.UseShellExecute = false;
             Process.Start(processo);
+            seg = 0;
+            min = 0;
+            hora = 0;
+            lbHora.Text = "0";
+            lbMinuto.Text = "0";
+            lbSegundo.Text = "0";
         }
         private void lbfechar_Click(object sender, EventArgs e)
         {
@@ -132,6 +138,7 @@ namespace DesligarMeuPC
             processo.CreateNoWindow = true;
             processo.UseShellExecute = false;
             Process.Start(processo);
+
         }
 
 
